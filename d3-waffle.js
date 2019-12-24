@@ -4,7 +4,7 @@ function d3waffle() {
       scale = 1,
       rows = 10,
       adjust = 0.8,
-      colorscale = d3.scale.schemeDark2,
+      colorscale = d3.scaleSequential(interpolator),
       appearancetimes = function(d, i){ return 500; },
       height = 200,
       magic_padding = 5;
